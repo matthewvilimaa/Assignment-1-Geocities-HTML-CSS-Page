@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(219, 171, 111);
+}
+
+h1 {
+  background-color: rgb(15, 163, 15);
+}
+
+.welcome-text {
+  color: rgb(150, 220, 243);
+}
+
+.games-text {
+  background-color: rgb(219, 98, 54);
+}
+
+a:hover {
+  color: white;
+}
+
+.image {
+  width: 300px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .page-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+  }
+
+  .page-content {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .top-image {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+.competitive-games {
+  background-color: red;
+  padding: 10px;
+}
+
+.golden {
+  background-color: gold;
+}
+
+.games-li {
+  width: 150px;
+  margin: 10px;
+}
+
+.games-ri {
+  width: 150px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .games-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .games-li {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .h1 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .games-ri {
+    grid-column: 3;
+    grid-row: 1;
+  }
+}
+
+.memorable-reads {
+  color: teal;
+}
+
+.back {
+  background-color: rgb(8, 161, 8);
+}
+
+.shoulders {
+  background-color: rgb(62, 62, 247);
+}
+
+.legs {
+  background-color: red;
+}
+
+.gym {
+  width: 500px;
+  margin: 10px;
+}
+
+.shows-h1 {
+  background-color: lightgreen;
+}
+
+.show-pics {
+  display: grid;
+  grid-template-columns: 200px 200px 100px;
+}
+
+.show-image {
+  width: 120px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .show-image {
+    width: 240px;
+  }
+}
